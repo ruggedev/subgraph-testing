@@ -1,0 +1,9 @@
+{
+  "extends": "@graphprotocol/graph-ts/types/tsconfig.base.json",
+  "include": ["src", "packages/helper/helper.ts", "packages/constants/constants.ts", "packages/constants/addresses.ts"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  },
+  "lib": ["es2020"]
+}
